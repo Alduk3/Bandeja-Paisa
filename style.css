@@ -1,0 +1,101 @@
+body{
+    background-color: #f3f4f5;
+    margin: 0 auto;
+}
+.header{
+    border: 2px solid #E50700;
+    background-color: #e50800ad;
+    
+}
+.header h1{
+    font-family: Arial;
+    font-size: 24px; 
+}
+.header__menu{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.header__menu ul{
+    display: flex;
+}
+.header__menu li{
+    display: inherit;
+}
+.header__menu a{
+    color: black;
+    padding: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Arial;
+}
+.header__menu a:hover{
+    background-color:  #e50800ad;    
+    border-radius: 10px;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.banner .banner__hero{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    
+
+}
+
+.banner__text-hero{
+    padding: 80px 0 0 80px ;
+    font-family: Georgia;
+    font-size: 18px;
+    color: #757575;
+    
+
+}
+
+.ingredientes{    
+    margin: 80px;
+}
+.ingredientes ul{
+    columns: 2; 
+    -webkit-columns: 2; 
+    -moz-columns: 2; 
+}
+.ingredientes li{
+    font-family: Georgia;
+    font-size: 18px;
+    color: #757575;
+}
+.title{
+    border-left: 5px solid   #e50800ad;
+    text-transform: uppercase;
+    font-family: Georgia;
+    font-size: 24px;
+    color: black;
+}
+.elsecreto{
+    margin: 80px;
+    text-align: justify;    
+    font-family: Georgia;
+    font-size: 18px;
+    color: #757575;
+    
+}
+
+.footer{   
+    width: auto;
+    background-color: rgb(24, 22, 22);
+    color: white;
+    font-family: Arial;
+    font-size: 14px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
